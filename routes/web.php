@@ -93,3 +93,7 @@ foreach($paises as $pais => $infopais){
     } 
 }*/
 });
+
+Route::get('prueba' , function(){
+    return view('productos.new');
+});
