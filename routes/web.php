@@ -96,13 +96,13 @@ foreach($paises as $pais => $infopais){
 }*/
 });
 
-Route::get('prueba' , function(){
+/*Route::get('producto/create' , function(){
     return view('productos.new');
-});
+});*/
 
 
 
 //Rutas REST 
 Route::resource('productos', ProductoController::class);
 
-
+?>
